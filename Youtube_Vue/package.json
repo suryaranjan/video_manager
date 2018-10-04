@@ -1,0 +1,36 @@
+{
+  "name": "youtube_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build-min": "webpack ./Src/index.js ./Dist/app.js -p",
+    "watch": "webpack ./Src/index.js ./Dist/app.js --watch"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue": "^2.5.17",
+    "vue-debounce": "^0.2.0",
+    "vue-loader": "^15.4.1",
+    "vue-router": "^3.0.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "vue-youtube-embed": "^2.2.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "hmr-loader": "^1.0.5",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
